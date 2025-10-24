@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ritual AI Quiz</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="card">
+<h1>🔥 Ritual of the Day</h1>
+<h2 id="ritual">{{ ritual }}</h2>
+
+
+<div id="quiz">
+<form id="quizForm">
+{% for q in questions %}
+<div class="question">
+<p class="qtext">{{ q.question }}</p>
+{% for opt in q.options %}
+<label class="opt">
+<input type="radio" name="q{{ loop.index0 }}" value="{{ opt }}"> {{ opt }}
+</label>
+{% endfor %}
+</div>
+{% endfor %}
+<button type="button" id="submitBtn">Submit</button>
+</form>
+
+
+<div id="result"></div>
+</div>
+</div>
+
+
+<script>
+document.getElementById('submitBtn').addEventListener('click', function(){
+const qDivs = document.getElementsByClassName('question');
+const payload = { questions: [] };
+for(let i=0;i<qDivs.length;i++){
+const selected = qDivs[i].querySelector('input[type="radio"]:checked');
+// answer value is injected by the server inside data-answer attr fallback is handled server-side
+const answer = `{{ questions[i].answer }}`;
+payload.questions.push({ selected: selected ? selected.value : '', answer: answer });
+}
+
+
+fetch('/check', {
+method: 'POST',
+headers: { 'Content-Type': 'application/json' },
+body: JSON.stringify(payload)
+}).then(r => r.json()).then(data => {
+document.getElementById('result').innerHTML = `<h3>Your Score: ${data.score}/${payload.questions.length}</h3>`;
+});
+});
+</script>
+</body>
+</html>
