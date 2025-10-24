@@ -1,0 +1,22 @@
+[
+{"question": "What is the first ritual of the day?", "options": ["Meditation", "Gratitude Journaling", "Workout", "Learning"], "answer": "Gratitude Journaling"},
+{"question": "How many key tasks should you plan each day?", "options": ["1", "2", "3", "5"], "answer": "3"},
+{"question": "What should you do at the end of the day?", "options": ["Reflect on 1 win & 1 lesson", "Sleep immediately", "Check phone", "Skip planning"], "answer": "Reflect on 1 win & 1 lesson"},
+{"question": "Which ritual boosts your energy in the morning?", "options": ["Quick workout", "Scrolling phone", "Watching TV", "Sleeping"], "answer": "Quick workout"},
+{"question": "Why is gratitude journaling important?", "options": ["Builds focus", "Wastes time", "Makes you lazy", "None"], "answer": "Builds focus"},
+{"question": "How long should a morning mindset ritual take?", "options": ["1 min", "5-10 mins", "1 hour", "Whole day"], "answer": "5-10 mins"},
+{"question": "Which ritual helps you track daily growth?", "options": ["Reflection", "Watching TV", "Gaming", "Skipping rituals"], "answer": "Reflection"},
+{"question": "When should you plan your 3 key tasks?", "options": ["Morning", "Night", "After lunch", "Before sleep"], "answer": "Morning"},
+{"question": "What is the main goal of the 100 Days Challenge?", "options": ["Consistency", "Random fun", "Sleep more", "Ignore tasks"], "answer": "Consistency"},
+{"question": "Which habit increases daily self-awareness?", "options": ["Reflection journaling", "Overthinking", "Scrolling reels", "Skipping rituals"], "answer": "Reflection journaling"},
+{"question": "Do you create from chaos, or does chaos create you?", "options": ["Create from chaos", "Chaos creates me", "Both", "Neither"], "answer": "Both"},
+{"question": "What happens when silence becomes louder than thought?", "options": ["Clarity", "Panic", "Boredom", "Confusion"], "answer": "Clarity"},
+{"question": "Are you chasing progress, or becoming it?", "options": ["Chasing progress", "Becoming progress", "Both", "Neither"], "answer": "Becoming progress"},
+{"question": "When you disconnect from noise, what part of you speaks first?", "options": ["Intuition", "Fear", "Memory", "Hunger"], "answer": "Intuition"},
+{"question": "Is mastery born from patience or obsession?", "options": ["Patience", "Obsession", "Both", "Neither"], "answer": "Both"},
+{"question": "What do you sacrifice for clarity?", "options": ["Time", "Sleep", "Comfort", "All of the above"], "answer": "All of the above"},
+{"question": "Can balance exist without breaking first?", "options": ["Yes", "No", "Sometimes", "Depends"], "answer": "Sometimes"},
+{"question": "Is evolution a choice or an automatic update?", "options": ["Choice", "Automatic", "Both", "Neither"], "answer": "Both"},
+{"question": "When your mind feels heavy, is it growth or resistance?", "options": ["Growth", "Resistance", "Both", "Neither"], "answer": "Both"},
+{"question": "What does it mean to operate in 'still mode'?", "options": ["Quiet focus", "Sleep", "Idle planning", "Avoidance"], "answer": "Quiet focus"}
+]
